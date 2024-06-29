@@ -10,29 +10,28 @@
 		<maven.compiler.source>17</maven.compiler.source>
 		<maven.compiler.target>17</maven.compiler.target>
 	</properties>
-	
+
 	<distributionManagement>
-    <repository>
-        <id>github</id>
-        <url>https://github.com/jganthakoru/maven-plugin</url>
-    </repository>
-</distributionManagement>
+		<repository>
+			<id>github</id>
+			<url>https://github.com/jganthakoru/maven-plugin</url>
+		</repository>
+	</distributionManagement>
 
-<build>
-   <pluginManagement>
-       <plugins>
-           <plugin>
-               <groupId>org.apache.maven.plugins</groupId>
-               <artifactId>maven-plugin-plugin</artifactId>
-               <version>3.6.0</version>
-           </plugin>
-           <plugin>
-               <groupId>org.apache.maven.plugins</groupId>
-               <artifactId>maven-site-plugin</artifactId>
-               <version>3.8.2</version>
-           </plugin>
-       </plugins>
-   </pluginManagement>
-</build>>
-
+	<build>
+		<pluginManagement>
+			<plugins>
+				<plugin>
+					<groupId>org.apache.maven.plugins</groupId>
+					<artifactId>maven-plugin-plugin</artifactId>
+					<version>3.6.0</version>
+				</plugin>
+				<plugin>
+					<groupId>org.apache.maven.plugins</groupId>
+					<artifactId>maven-site-plugin</artifactId>
+					<version>3.8.2</version>
+				</plugin>
+			</plugins>
+		</pluginManagement>
+	</build>
 </project>
